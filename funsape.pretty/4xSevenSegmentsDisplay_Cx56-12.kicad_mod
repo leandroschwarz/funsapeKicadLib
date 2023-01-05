@@ -1,0 +1,119 @@
+(footprint "4xSevenSegmentsDisplay_Cx56-12" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 63B63BEF)
+  (descr "4-digit, 7-segment display, 12 Leads, 0.56in Digit Height, 100mil (2.54mm) Pitch, 600mil (15.24mm) Row Space, 50.3mm Length, 19.0mm Width, 8.1mm Height")
+  (tags "4-digit 7-segment display led")
+  (attr through_hole)
+  (fp_text reference "REF**" (at -23.2 -10.4) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 4bb6fa13-6f21-484d-b075-a4b4293b9b5c)
+  )
+  (fp_text value "Cx56-12" (at 0 10.5 180) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp fbec972b-b8e3-44a1-aaec-a98d3165dae6)
+  )
+  (fp_text user "${REFERENCE}" (at 0 0 180) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 004d8b95-5b01-4ab9-a99e-2846f3b7c191)
+  )
+  (fp_line (start 3.175 -5.137636) (end 0.635 5.022364) (layer "F.SilkS") (width 0.4) (tstamp 0e041892-7b08-47c3-941b-481187c7ddfb))
+  (fp_line (start 8.255 -0.057636) (end 1.905 -0.057636) (layer "F.SilkS") (width 0.4) (tstamp 2058ebf4-6231-4389-a81f-781d7618f9a6))
+  (fp_line (start 0.508 0) (end -0.508 0) (layer "F.SilkS") (width 0.12) (tstamp 23860b52-197b-4265-a00f-49facc1e829c))
+  (fp_line (start -17.145 -5.08) (end -19.685 5.08) (layer "F.SilkS") (width 0.4) (tstamp 3738050f-91d0-4ed2-8d4e-9df028e91307))
+  (fp_line (start 13.335 -5.08) (end 10.795 5.08) (layer "F.SilkS") (width 0.4) (tstamp 389405d8-70b6-4a11-ada0-d33db4f7ce92))
+  (fp_line (start 6.985 5.022364) (end 9.525 -5.137636) (layer "F.SilkS") (width 0.4) (tstamp 3a573bd9-16f5-47a6-b8e2-9612dd09e770))
+  (fp_line (start -0.635 -5.08) (end -6.985 -5.08) (layer "F.SilkS") (width 0.4) (tstamp 3bee7b2f-c2db-4bed-9588-08531d3a96ad))
+  (fp_line (start 18.415 0) (end 12.065 0) (layer "F.SilkS") (width 0.4) (tstamp 4d3d1afb-9008-4c73-b45a-0867a3b9da70))
+  (fp_line (start 10.795 5.08) (end 17.145 5.08) (layer "F.SilkS") (width 0.4) (tstamp 50422015-5620-456e-9aa4-9ac0d0790b9f))
+  (fp_line (start 0.635 5.022364) (end 6.985 5.022364) (layer "F.SilkS") (width 0.4) (tstamp 658561af-d1d4-4547-9bd5-14edfa0dec8f))
+  (fp_line (start -1.905 0) (end -8.255 0) (layer "F.SilkS") (width 0.4) (tstamp 67827a8b-bf90-4908-bd47-7985dfd968aa))
+  (fp_line (start 9.525 -5.137636) (end 3.175 -5.137636) (layer "F.SilkS") (width 0.4) (tstamp 67af44b0-8c7f-4ead-9ead-f10de78bb323))
+  (fp_line (start -7.35 9.8) (end -5.35 9.8) (layer "F.SilkS") (width 0.12) (tstamp 72d1fd81-1bd6-4054-a001-37b14ca13844))
+  (fp_line (start -19.685 5.08) (end -13.335 5.08) (layer "F.SilkS") (width 0.4) (tstamp 781246e0-bae4-4e36-8c98-2087b00cce4c))
+  (fp_line (start -9.525 5.08) (end -3.175 5.08) (layer "F.SilkS") (width 0.4) (tstamp 786d8e51-ee68-44f2-a5cb-86d109a383af))
+  (fp_line (start 19.685 -5.08) (end 13.335 -5.08) (layer "F.SilkS") (width 0.4) (tstamp 7ae1adc7-52c7-4242-8891-d4a9b3e33075))
+  (fp_line (start -10.795 -5.08) (end -17.145 -5.08) (layer "F.SilkS") (width 0.4) (tstamp a1ef7c26-b26c-46e6-9fad-04c92345e280))
+  (fp_line (start -3.175 5.08) (end -0.635 -5.08) (layer "F.SilkS") (width 0.4) (tstamp c4a8c237-7f1f-4959-bfca-205814cb54b1))
+  (fp_line (start -6.985 -5.08) (end -9.525 5.08) (layer "F.SilkS") (width 0.4) (tstamp cb32a960-94a5-4c4d-912f-173a7d775389))
+  (fp_line (start 0 0.508) (end 0 -0.508) (layer "F.SilkS") (width 0.12) (tstamp e42df7b2-3390-45e5-ac0c-3c7213386908))
+  (fp_line (start -13.335 5.08) (end -10.795 -5.08) (layer "F.SilkS") (width 0.4) (tstamp e525d240-d285-4c15-86f5-451fd14a100d))
+  (fp_line (start 17.145 5.08) (end 19.685 -5.08) (layer "F.SilkS") (width 0.4) (tstamp ec53c839-3f5d-4fb4-8a05-3a61d28a2e2b))
+  (fp_line (start -12.065 0) (end -18.415 0) (layer "F.SilkS") (width 0.4) (tstamp fba13c77-d08d-4ee4-818f-5fd2911cdf7a))
+  (fp_rect (start -25.15 -9.5) (end 25.15 9.5) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 5edd8bc6-59e5-4804-9a8b-643b70745dec))
+  (fp_circle (center -1.905 5.08) (end -1.705 5.08) (layer "F.SilkS") (width 0.4) (fill none) (tstamp 34ca5c43-bcc6-48bc-babc-79946396877f))
+  (fp_circle (center -7.75 7.62) (end -7.55 7.62) (layer "F.SilkS") (width 0.4) (fill none) (tstamp 60746d51-aced-4904-a047-62caf4317769))
+  (fp_circle (center 8.255 5.022364) (end 8.455 5.022364) (layer "F.SilkS") (width 0.4) (fill none) (tstamp 6d76ecd6-08c5-46fe-bf99-217079cfcdb4))
+  (fp_circle (center -12.065 5.08) (end -11.865 5.08) (layer "F.SilkS") (width 0.4) (fill none) (tstamp c3bef0d8-2182-40fa-bdc2-4a33194cb678))
+  (fp_circle (center 18.415 5.08) (end 18.615 5.08) (layer "F.SilkS") (width 0.4) (fill none) (tstamp e4dcca0b-3bc2-460a-9e5c-1a4e274c91d1))
+  (fp_rect (start -25.4 -9.75) (end 25.4 9.75) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 752ba632-b162-4fb4-8e61-4c2a5763399c))
+  (fp_rect (start 0 0) (end 0 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp c413d806-a69d-4b03-b3d5-65b0e21a58c6))
+  (fp_line (start -5.87 9.4) (end -6.35 8.92) (layer "F.Fab") (width 0.1) (tstamp 08091382-352b-4da4-9bdc-ad35a8cf83da))
+  (fp_line (start -25.05 -9.4) (end 25.05 -9.4) (layer "F.Fab") (width 0.1) (tstamp 3ffc70c2-f8f1-4ba5-999f-7752e9c7b6c0))
+  (fp_line (start -22.05 9.4) (end -25.05 6.4) (layer "F.Fab") (width 0.1) (tstamp 402da9f9-0150-4f1d-ae1a-20578c5de367))
+  (fp_line (start -25.05 6.4) (end -25.05 -9.4) (layer "F.Fab") (width 0.1) (tstamp 5c2b908f-73f2-45d6-b6fe-32205b8a852a))
+  (fp_line (start -6.35 8.92) (end -6.83 9.4) (layer "F.Fab") (width 0.1) (tstamp 6c4bf47e-ecc6-470a-b8f5-0c8889fce4f8))
+  (fp_line (start -6.83 9.4) (end -22.05 9.4) (layer "F.Fab") (width 0.1) (tstamp 6e51d11f-f608-4959-953b-c2618715ec4f))
+  (fp_line (start 25.05 9.4) (end 25.05 -9.4) (layer "F.Fab") (width 0.1) (tstamp 857e5f20-4edb-4463-919b-0ebdade4d2d4))
+  (fp_line (start -5.87 9.4) (end 25.05 9.4) (layer "F.Fab") (width 0.1) (tstamp ef0d67bf-eb15-497d-b139-1634fbdf3da9))
+  (pad "1" thru_hole rect (at -6.35 7.62) (size 1.5 2.5) (drill 1) (layers *.Cu *.Mask) (tstamp f12c72e3-36d5-43fd-83e1-62e0d3ae0c2c))
+  (pad "2" thru_hole oval (at -3.81 7.62) (size 1.5 2.5) (drill 1) (layers *.Cu *.Mask) (tstamp f5573249-6818-4f24-a36a-ea3739eae012))
+  (pad "3" thru_hole oval (at -1.27 7.62) (size 1.5 2.5) (drill 1) (layers *.Cu *.Mask) (tstamp 803a48b5-89a9-4791-a9b2-c58bb8ddeb95))
+  (pad "4" thru_hole oval (at 1.27 7.62) (size 1.5 2.5) (drill 1) (layers *.Cu *.Mask) (tstamp 919f0231-799e-49ae-ab62-dd81b00f2b9c))
+  (pad "5" thru_hole oval (at 3.81 7.62) (size 1.5 2.5) (drill 1) (layers *.Cu *.Mask) (tstamp 4de8a6bb-6c8b-4bbc-a60a-cce9ab847720))
+  (pad "6" thru_hole oval (at 6.35 7.62) (size 1.5 2.5) (drill 1) (layers *.Cu *.Mask) (tstamp 002a3eb2-228d-4ed4-9a2e-0c1b041d4dd3))
+  (pad "7" thru_hole oval (at 6.35 -7.62) (size 1.5 2.5) (drill 1) (layers *.Cu *.Mask) (tstamp ea05f5e1-8a46-498d-b3e3-318e1fb4dea7))
+  (pad "8" thru_hole oval (at 3.81 -7.62) (size 1.5 2.5) (drill 1) (layers *.Cu *.Mask) (tstamp 21c9237d-7f0b-4e38-aa9a-c93269ad2431))
+  (pad "9" thru_hole oval (at 1.27 -7.62) (size 1.5 2.5) (drill 1) (layers *.Cu *.Mask) (tstamp 98baa53c-24db-4be1-99d5-210b3b4ce111))
+  (pad "10" thru_hole oval (at -1.27 -7.62) (size 1.5 2.5) (drill 1) (layers *.Cu *.Mask) (tstamp 97ab4cc7-179d-49ef-88b8-5c6d9b5a5810))
+  (pad "11" thru_hole oval (at -3.81 -7.62) (size 1.5 2.5) (drill 1) (layers *.Cu *.Mask) (tstamp ebbb5bfc-03f7-46a3-b2a7-64194ae2e35c))
+  (pad "12" thru_hole oval (at -6.35 -7.62) (size 1.5 2.5) (drill 1) (layers *.Cu *.Mask) (tstamp 3dbb4afb-2e0d-45fc-bade-e93b6540ae8c))
+  (group "" (id 50b2f3b9-e432-4fad-855e-793522d085b7)
+    (members
+      389405d8-70b6-4a11-ada0-d33db4f7ce92
+      4d3d1afb-9008-4c73-b45a-0867a3b9da70
+      50422015-5620-456e-9aa4-9ac0d0790b9f
+      7ae1adc7-52c7-4242-8891-d4a9b3e33075
+      ec53c839-3f5d-4fb4-8a05-3a61d28a2e2b
+    )
+  )
+  (group "" (id 91f87c41-672e-4f71-a3bb-73b6e58f84b8)
+    (members
+      3738050f-91d0-4ed2-8d4e-9df028e91307
+      781246e0-bae4-4e36-8c98-2087b00cce4c
+      a1ef7c26-b26c-46e6-9fad-04c92345e280
+      e525d240-d285-4c15-86f5-451fd14a100d
+      fba13c77-d08d-4ee4-818f-5fd2911cdf7a
+    )
+  )
+  (group "" (id c5e1a4a8-0a30-4b88-9089-0ec9a7dd095e)
+    (members
+      0e041892-7b08-47c3-941b-481187c7ddfb
+      2058ebf4-6231-4389-a81f-781d7618f9a6
+      3a573bd9-16f5-47a6-b8e2-9612dd09e770
+      658561af-d1d4-4547-9bd5-14edfa0dec8f
+      67af44b0-8c7f-4ead-9ead-f10de78bb323
+    )
+  )
+  (group "" (id f0c184f4-3ecb-4ad8-8ea7-6c53eece4bdf)
+    (members
+      34ca5c43-bcc6-48bc-babc-79946396877f
+      6d76ecd6-08c5-46fe-bf99-217079cfcdb4
+      c3bef0d8-2182-40fa-bdc2-4a33194cb678
+      e4dcca0b-3bc2-460a-9e5c-1a4e274c91d1
+    )
+  )
+  (group "" (id ff015e1e-4ba7-4f61-961d-bc3129e50d05)
+    (members
+      3bee7b2f-c2db-4bed-9588-08531d3a96ad
+      67827a8b-bf90-4908-bd47-7985dfd968aa
+      786d8e51-ee68-44f2-a5cb-86d109a383af
+      c4a8c237-7f1f-4959-bfca-205814cb54b1
+      cb32a960-94a5-4c4d-912f-173a7d775389
+    )
+  )
+  (model "$(KICAD_USER_LIBRARY_DIR)/3D/4xSevenSegmentsDisplay_Cx56-12.step"
+    (offset (xyz 0 0 8.1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)
